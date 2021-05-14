@@ -38,7 +38,7 @@ function App() {
     <>
       <header>
         <form onSubmit={handleOnSubmit}>
-          <input className="search" type="search" placeholder="Search..." value={searchTerm} onChange={handleOnChange}/>
+          <input className="search" type="search" placeholder="SEARCH" value={searchTerm} onChange={handleOnChange}/>
         </form>    
       </header>
       <div className="movie-container">
